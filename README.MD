@@ -29,7 +29,7 @@ You can see that the entire text block is being converted to lowercase. Only som
 ![Q4](/Q4.png)
 The poem suggests us to twist the scale of dark and light, which means changing the contrast of the image. By changing multiple parameters you get the following image
 
-[Picture](/Q4%20Picture.png)
+![Picture](/Q4%20Picture.png)
 The fourth flag should be `exploiitm{n3v3r_g0nn4_g1v3_u_up}` and we move onto the 5th question
 
 ## Question 5
@@ -46,5 +46,7 @@ Following the instructions, you get the flag as `exploiitm{12.995_80.236}` and w
 Now we first must understand what the original code does. In the **for loop** section we can see that each letter from the `flag` is converted into the unicode format (using the `ord` function). After that we take the unicode character and raise it to the power of `t` and take moduluo of it with `N`.
 
 To solve this, we will follow a similar way. First we take an element from `l` list, and check if it is the same as `pow(character, e, N)`. We go through every single possible ASCII Character (32 - 127) and if it matches with the item from `l`, we append it to the flag variable.
+
+![Solution](/Q6%20Soln.png)
 
 Finally we combine it into a string and we can print it out. The final flag is `exploiitm{7W1N_Pr1M3_r54_15_UN53CUr3}` and it is captured.
