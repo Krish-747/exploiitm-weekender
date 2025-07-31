@@ -15,7 +15,7 @@ By combining both parts you get `exploiitm{3t_Tu_bRuTe_i_was_stabbed_23_times}` 
 ![Q2](/Q2.png)
 
 Now here, the audio sounds like absolute garbage (like nikhil's voice). However putting the audio through a spectrum analyser and voila
-[Spectrum](/Q2%20Spectrum.png)
+![Spectrum](/Q2%20Spectrum.png)
 
 If you dont have any eyes, this is the flag `exploiitm{b0o_h@Ha_5c@r3d_Y0u_d1dnt_I}` and second flag is captured.
 
