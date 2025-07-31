@@ -1,5 +1,7 @@
 # Exploiitm Weekender CTF Challenge
 
+You can try this challenge [here](https://exploiitm-cfi-weekender.vercel.app/)
+
 ## Question 1
 ![Q1](/Q1.png)
 
